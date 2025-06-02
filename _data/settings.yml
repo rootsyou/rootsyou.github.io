@@ -1,6 +1,6 @@
 #-------------------------------
 # Site Settings
-title: Coderon
+title: Rootsyou
 description: Coderon is a super modern and unique Jekyll blog theme
 logo: # You can add own logo. For example '/images/logo.png'.
 logo_dark:
@@ -42,7 +42,7 @@ menu_settings:
 #-------------------------------
 # Author Settings
 author:
-  author_name: Alex Dias
+  author_name: Marc
   author_avatar: /images/01-1.jpg
 
 
@@ -51,7 +51,7 @@ author:
 hero:
   enable: true
   hero_avatar: /images/01-1.jpg
-  hero_title: Hi! I’m Alex 👋
+  hero_title: Hi! I’m Marc 👋
   hero_subtitle: A digital explorer, coder, and Linux advocate
   hero_description: |
     I’m a digital explorer, coder, and Linux advocate. This blog is my personal knowledge base on productivity, programming, and the freedom of information.
