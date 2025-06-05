@@ -12,6 +12,16 @@
     background: var(--syntax-highlighting-background);
   }
 
+  /* Style inline <code> that is NOT inside .highlight */
+  :not(pre) > code:not(.highlight) {
+    background: var(--syntax-highlighting-background); 
+    color: #f8f8f2;
+    padding: 0.15em 0.35em;
+    font-size: 0.95em;
+    border-radius: 4px;
+    font-family: Menlo, Monaco, Consolas, monospace;
+  }
+
   .c     { color: #998; font-style: italic } // Comment
   .err   { color: #a61717; background-color: #e3d2d2 } // Error
   .k     { font-weight: bold } // Keyword

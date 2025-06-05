@@ -274,3 +274,15 @@ table td {
   opacity: 1;
   filter: blur(0);
 }
+
+// User added 
+
+/* Only style inline <code> that is NOT inside .highlight */
+:not(pre) > code:not(.highlight) {
+  background: var(--syntax-highlighting-background); 
+  color: #f8f8f2;
+  padding: 0.15em 0.35em;
+  font-size: 0.95em;
+  border-radius: 4px;
+  font-family: Menlo, Monaco, Consolas, monospace;
+}
