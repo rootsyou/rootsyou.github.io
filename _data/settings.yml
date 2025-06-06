@@ -1,7 +1,7 @@
 #-------------------------------
 # Site Settings
 title: Rootsyou.
-description: Coderon is a super modern and unique Jekyll blog theme
+description: I'm a designer/developer learning about cyber security 
 logo: # You can add own logo. For example '/images/logo.png'.
 logo_dark:
 
@@ -50,22 +50,22 @@ author:
 # Hero Settings
 hero:
   enable: true
-  hero_avatar: /images/01-1.jpg
-  hero_title: Hi! I’m Marc 👨🏻‍💻
-  hero_subtitle: I'm a designer learning about cyber security 
+  hero_avatar: /images/memoji@2x.jpg
+  hero_title: Hi! I’m Marc 👋
+  hero_subtitle: I'm a designer+developer learning about cyber security 
   hero_description: |
-    Here, I share ideas, tools, and methods that I discover as I learn about infosec.
+    Here I share what I discover on my journey as I deep dive in to the world of infosec. 
 
-    As I'm early in my journey, much of this is notes on different techniques, tools and CTF's I'm attempting. 
+    You'll find notes on tools, techniques and write-ups on labs I'm attempting for my own reference and to show what I'm working on. Dive in, get inspired, and feel free to share your thoughts!
   hero_image: /images/01.jpg
-  hero_image_caption: My creative space, where masterpieces are born
+  hero_image_caption: 
   hero_button_text: Get in Touch
   hero_button_link: '/contact/'
 
 
 # Logos
 logos:
-  enable: true
+  enable: false
   logos_title: Nerd Stuff
   logo_image:
     - alt: "Game Boy"
@@ -84,14 +84,14 @@ logos:
 # Section Blog Settings
 blog:
   enable: true
-  blog_title: The Binary Journal
+  blog_title: Cyber Journal
 
 
 #-------------------------------
 # Tags Section Settings
 tags_section:
   enable: true
-  tags_section_title: Hacker’s Haven
+  tags_section_title: Topics
   tags:
     - tag: "Programming"
       image: "/images/20.jpg"
@@ -106,14 +106,14 @@ tags_section:
 #-------------------------------
 # Videos Section Settings
 videos_section:
-  enable: true
+  enable: false
   videos_section_title: Latest Videos
 
 
 #-------------------------------
 # Gallery Section Settings
 gallery_section:
-  enable: true
+  enable: false
   gallery_section_title: Byte Frame
   gallery:
     gallery_images:
@@ -137,7 +137,7 @@ gallery_section:
 #-------------------------------
 # Newsletter Settings
 mailchimp:
-  enable: true
+  enable: false
   mailchimp_title: Stay inspired weekly ✌️
   mailchimp_description: Every Sunday, I deliver actionable tips for enhancing productivity, practical life advice, and top-notch insights gathered from various sources, right to your email inbox.
   mailchimp_identifier: gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
@@ -153,12 +153,12 @@ footer_description: Here, I share ideas, tools, and methods that help me balance
 #-------------------------------
 # Social Settings
 social:
-- {icon: "fa-brands fa-x-twitter", name: "Twitter", link: "https://twitter.com"}
-- {icon: "fa-brands fa-facebook", name: "Facebook", link: "https://facebook.com"}
-- {icon: "fa-brands fa-mastodon", name: "Mastodon", link: "https://mastodon.social"}
-- {icon: "fa-brands fa-reddit-alien", name: "Reddit", link: "https://reddit.com"}
-- {icon: "fa-brands fa-github", name: "Github", link: "https://github.com"}
-- {icon: "fa-solid fa-rss", name: "Rss", link: "/feed.xml"}
+#- {icon: "fa-brands fa-x-twitter", name: "Twitter", link: "https://twitter.com"}
+#- {icon: "fa-brands fa-facebook", name: "Facebook", link: "https://facebook.com"}
+#- {icon: "fa-brands fa-mastodon", name: "Mastodon", link: "https://mastodon.social"}
+#- {icon: "fa-brands fa-reddit-alien", name: "Reddit", link: "https://reddit.com"}
+#- {icon: "fa-brands fa-github", name: "Github", link: "https://github.com"}
+#- {icon: "fa-solid fa-rss", name: "Rss", link: "/feed.xml"}
 
 # Example of adding a new link to the sidebar and footer - {icon: "fa-brands fa-youtube", name: "Youtube", link: https://youtube.com"}
 # Other icons can be found at https://fontawesome.com/icons
@@ -177,7 +177,7 @@ contact:
 #-------------------------------
 # Comment Section (Disqus)
 disqus:
-  enable: true
+  enable: false
   disqus_identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvod-studio-test
   disqus_title: Start the conversation
   disqus_button_text: Show Comments
